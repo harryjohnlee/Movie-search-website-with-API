@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf 8" />
+        <title>ShowSearch</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="ShowSearch.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+   
+
+  
+    </head>
+
+    <body class="background">
+       
+        <nav class="navbar navbar-expand-lg bg-black">
+            <div class="container">
+            
+                <a class="navbar-brand" href="index.html">Show<span>Search</span></a>
+                    
+                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                <div class="collapse navbar-collapse" id="navbarNav">
+                
+                    <ul>
+                        <li class="navbar-item"><a href="loginpage.html">Log In<span> / </span>Sign Up</a></li>
+                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Language
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">English</a></li>
+                              <li><a class="dropdown-item" href="#">Francais</a></li>
+                              <li><a class="dropdown-item" href="#">Espanol</a></li>
+                              <li><a class="dropdown-item" href="#">Deutch</a></li>
+                              <li><a class="dropdown-item" href="#">Italian</a></li>
+                            </ul>
+                          </li>
+                    </ul>
+                
+            
+                </div>
+            </div>
+        </nav>
+       
+        <div class="p-5 mb-4 bg-light jumbotron">
+            <div class="container">
+                <form id="search-form" onsubmit="searchActor(event)" class="mt-5">
+                <input type="text" placeholder="Type the name of an actor/actress" class="form-control" id="keywords">
+                <p class="col-md-8 fs-4"></p>
+                </form>
+            </div>
+            
+        </div>
+
+        <div class="container">
+            <h1 class="actor-title"><span class="bluetext">Search</span> for an actor<span>/</span>actress in the search box above.</h1>
+        </div>
+
+        <div class="container">
+            <div id="results" class="row mt-6"></div>
+        </div>
+        
+        <div class="endresult"></div>
+        <div class="resultoverlay"></div>
+
+       
+        
+
+
+        <div class="container">
+            <div class="square"></div>
+
+        </div>
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./moviedatabase.js"></script>
+    </body>
+</html>

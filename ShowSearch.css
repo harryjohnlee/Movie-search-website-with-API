@@ -1,0 +1,453 @@
+*{
+    font-family:'Poppins', sans-serif ;
+    color: aliceblue;
+}
+.navbar-brand{
+    background: transparent;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    
+
+}
+.navbar-brand:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 20px #fff, 0 0 20px #fff;
+    transition: 0.6s;
+    
+}
+
+.background {
+    background-color: rgb(0, 0, 0);
+}
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    
+}
+nav li {
+    margin-left: 40px;
+    text-align: right;
+    list-style: none;
+    display: inline-block;
+
+}
+a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 20px #fff, 0 0 20px #fff;
+    transition: 0.6s;
+}
+
+.navbar-item {
+    color: #ffffff;
+    margin-top: 5%;
+}
+.nav-item{
+    color: aliceblue;
+
+
+}
+
+.navbar-item:hover .row-lang {
+    display: block;
+    position: absolute;
+    background: transparent
+
+}
+
+span {
+    color: goldenrod;
+}
+.bluetext{
+    color: #008de8;
+}
+p {
+    color:aliceblue;
+    text-align: center;
+    
+    
+
+}
+.middletext {
+    text-align: left;
+    font-size: 40px;
+
+}
+.col-lg-6 {
+    color: aliceblue;
+}
+.background .jumbotron {
+    background-image: url(./images/vRs0PSJL.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    
+}
+h2 {
+    color:aliceblue;
+}
+.centered {
+    position: relative;
+   color: aliceblue;
+   bottom: 130px;
+}
+.text {
+    position: absolute;
+
+}
+#tile, a {
+    border-radius: 25px;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+#tileandtext{
+    margin: auto;
+
+}
+.container input[type=text] {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 0;
+    border-radius: 25px;
+    height: 50px;
+    background: rgb(133,133,133);
+    background: linear-gradient(0deg, rgba(133,133,133,1) 0%, rgba(255,255,255,1) 91%, rgba(241,241,241,1) 100%);
+    margin-bottom: 30px;
+    
+    
+    
+}
+.container input[type=text2] {
+    width: 50%;
+    border: 0;
+    border-radius: 25px;
+    height: 50px;
+    background: rgb(133,133,133);
+    background: linear-gradient(0deg, rgba(133,133,133,1) 0%, rgba(255,255,255,1) 91%, rgba(241,241,241,1) 100%);
+    margin-left: 300px;
+    
+}
+
+#tileandtext:hover {
+    transform: scale(108%);
+    transition: 0.5s;
+
+
+    
+}
+h3{
+    margin-top: -110px;
+    margin-left: 27px;
+    color: aliceblue;
+    position: relative;
+
+}
+.navbarsearch{
+    width: 60%;
+
+}
+
+#navbar2 {
+box-shadow: 0 2px 2px -2px rgba(255, 255, 255, 0.895);
+
+
+}
+h1{
+    color: aliceblue; 
+}
+.loginform {
+    text-align: center;
+    margin-top: 50px;
+}
+.signupform {
+    text-align: center;
+    margin-top: 50px;
+
+}
+#login-form{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+#inputemail1{
+    width: 30%;
+    display: inline-block;
+    
+}
+#inputpassword1{
+    width: 30%;
+    display: inline-block;
+}
+.btn-primary{
+    background-color: goldenrod;
+    border-color: goldenrod;
+    margin-bottom: 50px;
+
+}
+.btn-primary:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+.linktosignup {
+    color: aliceblue;
+
+}
+#results {
+    list-style: none;
+    padding: 0%;
+}
+.card:hover{
+    scale: 102%;
+    transition: 0.6s;
+}
+.back-image{
+    border-radius: 25px;
+    margin-top: 20px;
+}
+#homesquare1{
+    
+    height: 400px;
+    background-image: linear-gradient(to bottom, #17c2c9, #00d0b0, #5dd983, #a4dc4c, #eed500);
+    margin-top: 90px;
+    border-radius: 25px;
+}
+
+#homesquare1 h4 {
+    font-size: 60px;
+    text-align: center;
+}
+#homesquare2 h4 {
+    font-size: 50px;
+    text-align: center;
+}
+.actorsearchredirect{
+    border: none;
+    background-color: transparent;
+}
+.actorsearchredirect:hover{
+    transform: scale(110%);
+    transition: 1s;
+}
+#homesquare2{
+    
+    height: 400px;
+    background-image: linear-gradient(to bottom, #17c2c9, #00aad9, #008de8, #0069e6, #4e34c7);
+    margin-top: 90px;
+    border-radius: 25px;
+}
+.actor-title{
+    text-align: center;
+}
+
+.card{
+
+    height: 500px;
+    background-color: black;
+    margin-top: 90px;
+    border-radius: 25px;
+    border-color: goldenrod;
+    overflow-y: scroll;
+
+}
+.cardtitle b{
+    color: goldenrod;
+}
+.cardtext p{
+    margin-top: 20px;
+    font-size: small;
+}
+.cardtextactor  {
+    margin-top:  120px; 
+    font-size: larger
+}
+#navbarNav{
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1399px) {
+#tileandtext img {
+    max-width: 200px;
+    max-height: 200px;
+}
+#tileandtext {  
+    width: 33%;
+    margin-top: 50px ;
+}
+h3 {
+    
+    margin-right:14px ;
+}
+#homesquare1, #homesquare2{
+    width: 500px;
+    height: 300px;
+}
+#homesquare1 h4{
+    font-size: 50px;
+}
+#homesquare2 h4 {
+    font-size: 40px;
+}
+table{
+    height: 200px;
+    width: 500px;
+    
+}
+.dropdown-menu{
+    margin-right:100px ;
+}
+    
+}
+@media screen and (max-width:1199px) {
+ 
+    #homesquare1, #homesquare2{
+        width: 450px;
+        height: 250px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    #homesquare1 h4{
+        font-size: 40px;
+    }
+    table{
+        height: 150px;
+        width: 400px;
+        
+    }
+    #homesquare2 h4{
+        font-size: 30px;
+    }
+    
+   
+    
+
+}
+@media screen and (max-width:991px) {
+    #tileandtext {  
+        width: 33%;
+        margin-top: 50px ;
+    }
+    #tilegroup {
+        margin-top: 20px;
+    }
+   
+    #homesquare1{
+        width: 100%;
+    }
+    #homesquare2{
+        width: 100%;
+    }
+    #homesquare1 h4{
+        font-size: 33px;
+    }
+    table{
+        height: 85px;
+        width: 300px;
+        
+    }
+    #homesquare2 h4{
+        font-size: 25px;
+    }
+    .container input[type=text]{
+        width:75%;
+        margin: auto;
+    }
+   
+    .cardtext{
+        margin-right: 10px;
+        width: 100%;
+    }
+    .imageresult{
+        width: 100%;
+
+    }
+    .cardtextactor{
+        margin-right: 10px;
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:767px) {
+    #tileandtext img {
+        max-width: 175px;
+        max-height: 175px;
+    }
+    #tileandtext {  
+        width: 33%;
+        margin-top: 50px ;
+    }
+    h3 {
+        margin-top: -95px;
+        margin-left: 50px;
+    }
+    #homesquare1 h4{
+        font-size: 32px;
+    }
+    table{
+        height: 40px;
+        width: 220px;
+        font-size: small;
+        
+    }
+    #homesquare2 h4{
+        font-size: 15px;
+    }
+    .container input[type=text]{
+        width:75%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .card-body{
+        width:100%;
+    }
+   
+}
+@media screen and (max-width:536px){
+    nav li{
+        margin-left: 20px;
+        font-size: 80%;
+    }
+    .container input[type=text]{
+        width:75%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    table{
+        height: 40px;
+        width: 200px;
+        font-size: small;
+        
+        
+    }
+    h3{
+        margin-left: 50px;
+    }
+    #homesquare1 h4{
+        font-size: 30px;
+    }
+   
+    
+    
+
+}
+
+    
